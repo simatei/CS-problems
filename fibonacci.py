@@ -1,8 +1,6 @@
-# Generates Fibonacci series to a given number of terms
+def fib1(n: int) -> int:
+    # base case
+    if n < 2:
+        return n
+    return fib1(n-1) + fib1(n-2)
 
-def generate_sequence(terms):
-    fib = [0, 1]
-    while len(fib)< terms:
-        next_no = fib[len(fib)-1] + fib[len(fib)-2]
-        fib.append(next_no)
-    return fib

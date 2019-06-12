@@ -6,7 +6,3 @@ def generate_sequence(terms):
         next_no = fib[len(fib)-1] + fib[len(fib)-2]
         fib.append(next_no)
     return fib
-
-if __name__ == "__main__":
-    pass
-

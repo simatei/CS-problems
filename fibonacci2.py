@@ -1,4 +1,4 @@
-# Calculate fibonacci utilizing memoization.
+# generate Fibonacci numbers utilizing memoization.
 
 from typing import Dict
 

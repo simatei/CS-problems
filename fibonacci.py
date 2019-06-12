@@ -7,3 +7,6 @@ def generate_sequence(terms):
         fib.append(next_no)
     return fib
 
+if __name__ == "__main__":
+    pass
+
